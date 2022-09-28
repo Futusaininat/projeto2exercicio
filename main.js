@@ -3,7 +3,7 @@ const contato = [];
 
 let linhas = '';
 
-form .addEventListener('submit', function(e) {
+form.addEventListener('submit', function(e) {
     e.preventDefault();
 
     adicionaLinha();
